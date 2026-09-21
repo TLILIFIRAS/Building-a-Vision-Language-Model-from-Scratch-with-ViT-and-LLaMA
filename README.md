@@ -5,7 +5,7 @@ A practical implementation of a **Vision-Language Model (VLM)** that combines a 
 The project demonstrates how visual information can be transformed into embeddings and injected into a language model alongside textual instructions.
 
 ---
-!()[architecture.png]
+[architecture.png]
 
 ## 📖 Medium Article
 
@@ -87,7 +87,7 @@ The overall architecture is:
           └──────────────────┘
 
 ```
-**🎯 Objective
+** 🎯 Objective
 ============
 
 The main objective of this project is to understand how a Vision-Language Model can be constructed by connecting a vision encoder to a language model.
@@ -159,11 +159,16 @@ The project uses:
 
 ⚠️ Important Implementation Notes
 =================================
+
 Educational implementation
 --------------------------
+
 This project is primarily designed for learning and experimentation.
+
 It demonstrates the fundamental concepts behind multimodal architectures rather than attempting to reproduce the scale or performance of modern production VLMs.
+
 📚 Learning Outcomes
+
 ====================
 
 After completing this project, you should understand:
