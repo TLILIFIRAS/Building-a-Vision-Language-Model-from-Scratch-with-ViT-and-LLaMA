@@ -5,7 +5,9 @@ A practical implementation of a **Vision-Language Model (VLM)** that combines a 
 The project demonstrates how visual information can be transformed into embeddings and injected into a language model alongside textual instructions.
 
 ---
-[architecture.png]
+
+![Architecture](architecture.png)
+
 
 ## 📖 Medium Article
 
@@ -87,7 +89,7 @@ The overall architecture is:
           └──────────────────┘
 
 ```
-** 🎯 Objective
+## 🎯 Objective
 ============
 
 The main objective of this project is to understand how a Vision-Language Model can be constructed by connecting a vision encoder to a language model.
@@ -101,7 +103,7 @@ Expected response:      "The image shows a cat."   `
 ```
 In this specific project, the model is trained for image caption generation using image-caption pairs.
 
-**🧠 Architecture
+## 🧠 Architecture
 
 The model contains three main components:
 
@@ -111,7 +113,7 @@ LLaMA-style Causal Language Model
 
 A tokenizer is used to convert text into token IDs.
 
-**📦 Dataset
+## 📦 Dataset
 
 The project uses the:
 
@@ -130,7 +132,7 @@ file
 caption
 b64string_images
 ```
-🛠️ Technologies
+## 🛠️ Technologies
 ================
 
 The project uses:
@@ -157,7 +159,7 @@ The project uses:
     
 *   Google Colab / CUDA
 
-⚠️ Important Implementation Notes
+## ⚠️ Important Implementation Notes
 =================================
 
 Educational implementation
@@ -167,7 +169,7 @@ This project is primarily designed for learning and experimentation.
 
 It demonstrates the fundamental concepts behind multimodal architectures rather than attempting to reproduce the scale or performance of modern production VLMs.
 
-📚 Learning Outcomes
+## 📚 Learning Outcomes
 
 ====================
 
@@ -198,7 +200,8 @@ After completing this project, you should understand:
 *   How to train a multimodal model using PyTorch
     
 *   How to perform image-to-text generation
-🧩 Key Concepts
+
+## 🧩 Key Concepts
 ===============
 
 The project brings together several important deep-learning concepts.
